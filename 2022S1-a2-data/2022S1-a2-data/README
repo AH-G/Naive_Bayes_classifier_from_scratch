@@ -1,0 +1,103 @@
+
+This README contains detailed feature descriptions for the three data sets provided with this assignment.
+
+
+************************************************************************************
+1.) The Objectivity data set
+
+Instances:
+- Each instance (line in the file) represents a single sports news article.
+
+Label: 
+- binary in {subjective, objective} indicating whether a news article was subjectively or objectively written.
+
+Features: 
+- totalWordsCount : number of words in the article
+- FW : Frequency of foreign words 
+- JJ : Frequency of ordinal adjectives or numerals
+- JJR : Frequency of comparative adjectives 
+- LS : Frequency of list item markers 
+- NN : Frequency of singular common nouns 
+- NNPS : Frequency of plural proper nouns 
+- NNS : Frequency of plural common nouns 
+- POS : Frequency of genitive markers 
+- PRP : Frequency of personal pronouns 
+- PRP$ : Frequency of possessive pronouns 
+- RBR : Frequency of comparative adverbs 
+- RBS : Frequency of superlative adverbs 
+- UH : Frequency of interjections 
+- VBD : Frequency of past tense verbs 
+- VBZ : Frequency of present tense verbs with singular 3rd person subjects 
+- Quotes : Frequency of quotation pairs in the entire article 
+- questionmarks : Frequency of questions marks in the entire article 
+- exclamationmarks : Frequency of exclamation marks in the entire article 
+- fullstops : Frequency of full stops 
+- pronouns1st : Frequency of first person pronouns (personal and possessive) 
+- pronouns2nd : Frequency of second person pronouns (personal and possessive) 
+- pronouns3rd : Frequency of third person pronouns (personal and possessive) 
+
+Source: https://archive.ics.uci.edu/ml/datasets/Sports+articles+for+objectivity+analysis
+
+************************************************************************************
+2.) The Adult data set
+
+Instances:
+- Each instance (line in the file) represents a single US citizen.
+
+Label: 
+- binary in {<=50, >50} indicating whether an individual earns more than 50K USD a year or up to 50K USD.
+
+Features: 
+- age : age of the individual
+- fnlwgt : "final weight" derived from sociodemographic features in the US census statistics
+- Education-num : duration of education (in years)
+- Capital-gain : Total capital gain of the individual
+- Capital-loss : Total capital loss of the individual
+- Hours-per-week : Hours of paid work done by the individual (per week)
+
+Source: https://archive.ics.uci.edu/ml/datasets/adult
+
+
+************************************************************************************
+3.) The Absenteeism data set
+
+Instances:
+- Each instance (line in the file) represents a slingle employee of a courier company in Brazil covering three years (2007-2010).
+
+Label: 
+- The number of hours an employee was absent from work.
+
+Features
+- Service time : Length of employment (in months)
+- Age : Age of the employee
+- Work load Average/day  : Work load Average/day
+- Hit target : Achievement of periodic goals (%)
+- Son : number of children
+- Pet : Number of pets
+- Weight : Weight of employee
+- Height : Height of employee
+- Body mass index : BMI of employee
+
+Source: https://archive.ics.uci.edu/ml/datasets/Absenteeism+at+work
+
+
+************************************************************************************
+4.) The NOMINAL Adult data set (for Question 4)
+
+Instances:
+- Each instance (line in the file) represents a single US citizen.
+
+Label: 
+- binary in {<=50, >50} indicating whether an individual earns more than 50K USD a year or up to 50K USD.
+
+Features: 
+- workclass :  type of work arrangement (self employed, government employed, private, ...)
+- education :  highest degree obtained by the individual
+- marital-status :  marital status of the individual
+- occupation : coarse-grained type of occupation (repair, sales, armed forces, ...)
+- relationship : relationship status in the individual's household (husband, wife, own-child, ...)
+- race : race of the individual
+- sex : sex of the individual (male, female(
+- native-country : country of birth of the individual
+
+Source: https://archive.ics.uci.edu/ml/datasets/adult
